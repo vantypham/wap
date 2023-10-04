@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <head>
-        <link href="../css/styleme.css" type="text/css" rel="stylesheet"/>
-        </head>
+    <title>About Me Page</title>
+    <link href="../css/styleme.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>About Van Ty PHAM</h1>
-        <text>My name is Van Ty. I am a developer. I like <em>movies</em>.</text>
+        <h1>About Me Page</h1>
+        <p class="headerClass">My name is Van Ty PHAM. I am a <strong>developer</strong>. I like <em>movies</em>.</p>
+        <p class="mydropcap">
+            A Software Developer’s duties and responsibilities depend on the employer. Their work revolves around the software development life cycle. Developers work with teams of coders to create software programs for computers, mobile devices and websites. They update end-user software and conduct quality control functions. 
+            Crafting a compelling job description is essential to helping you attract the most qualified candidates for your job. With more than 25 million jobs listed on Indeed, a great job description can help your jobs stand out from the rest. Your job descriptions are where you start marketing your company and your job to your future hire.
+        </p>
+        
+        <div id="navigator">
+            <a href="/wap/index.html">HOME</a> | <a href="/wap/lab1/aboutme.html">ABOUT ME</a>
+        </div>
+        
     </header>
-<hr>
+
     <main>
         <h2>My Classes</h2>
         <div>
@@ -25,19 +32,60 @@
             </ul>
         </div>
         <h2>My Favorite Movies</h2>
-        <div>
+        <div id="mymovies">
             <ul>
                 <li class="moviesClass">Titanic (1997) - 
                     <a href="https://www.imdb.com/title/tt0120338/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Titanic">IMDb</a>
+                    <ul>
+                        <li>
+                            <strong>Director:</strong>
+                            <em>James Cameron</em>
+                        </li>
+                        <li>
+                            <strong>Writer:</strong>
+                            <em>James Cameron</em>
+                        </li>
+                        <li>
+                            <strong>Stars:</strong>
+                            <em>Leonardo DiCaprio &amp; Kate Winslet &amp; Billy Zane</em>
+                        </li>
+                    </ul>
                 </li>
                 
                 <li class="moviesClass">Dear John (2010) - 
                     <a href="https://www.imdb.com/title/tt0989757/">IMDb</a>
+                    <ul>
+                        <li>
+                            <strong>Director:</strong>
+                            <em>Lasse Hallstrom</em>
+                        </li>
+                        <li>
+                            <strong>Writer:</strong>
+                            <em>Jamie Linden &amp; Nicholas Sparks</em>
+                        </li>
+                        <li>
+                            <strong>Stars:</strong>
+                            <em>Channing Tatum &amp; Amanda Seyfried &amp; Richard Jenkins</em>
+                        </li>
+                    </ul>
                 </li>
                 <li class="moviesClass">
                     Alice in Wonderland (2010) - 
                     <a href="https://www.imdb.com/title/tt1014759/">IMDb</a>
-                    
+                    <ul>
+                        <li>
+                            <strong>Director:</strong>
+                            <em>Tim Burton</em>
+                        </li>
+                        <li>
+                            <strong>Writer:</strong>
+                            <em>Linda Woolverton</em>
+                        </li>
+                        <li>
+                            <strong>Stars:</strong>
+                            <em>Mia Wasikowska &amp; Johnny Depp &amp; Helena Bonham Carter</em>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
@@ -64,18 +112,19 @@
             <li>Raul: He likes cats.</li>
         </ul>
 
-
     </main>
-<hr>
+
     <footer>
+        <div class="footerClass">
         <p>
             <a href="https://validator.w3.org/check?url=https://vantypham.github.io/wap/lab1/aboutme.html">
                 <img src="../img/w3c-html5-logo.png" alt="Validate HtML" >
             </a>
             <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://vantypham.github.io/wap/lab1/aboutme.html">
-                <img src="../img/vcss.gif" alt="Valid CSS!"/>
+                <img src="../img/vcss.gif" alt="Valid CSS!">
             </a>
         </p>
+    </div>
 
     </footer>
 </body>

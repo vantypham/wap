@@ -1,15 +1,43 @@
 h1 {
     color: red;
 }
-text {
-    color: green;
-}
 h2 { 
-    font-family: Arial; 
+    font-family: "Arial"; 
     color: blue; 
     text-decoration: underline overline;
     text-shadow: -2px 5px gray;
 }
-div li.moviesClass {
+#mymovies li.moviesClass {
     color: green;
+    font-size: 20px;
+}
+li em { 
+    color: red;
+    font-size: x-small;
+}
+li > strong { 
+    color: cyan; 
+    font-size: 16px;
+}
+.headerClass {
+    color: green;
+}
+.footerClass {
+    background-color: lightgray;
+}
+#navigator {
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    text-decoration:none
+}
+a:hover{
+    background-color: blue;
+    color: red;
+}
+.mydropcap:first-letter {
+    font-family: "Source Sans Pro", Arial;
+    float: left;
+    font-size: 3rem;
 }
