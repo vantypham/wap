@@ -1,0 +1,185 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    height: auto;
+}
+.footerleft {
+    float: left;
+    font-size: small;
+    padding-left: 20px;
+    
+}
+.footerright {
+    float: right;
+    font-size: small;
+    opacity: 0.5;
+    padding-right: 20px;
+    padding-top: 7px;
+    
+}
+.footer {
+    background-color: lightgray;
+    border: 1px solid lightgrey;
+    height: 30px;
+}
+.rightformat {
+    vertical-align: middle;
+}
+
+#headerMenus {
+    background-color: white;
+    border: 1px solid white;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    
+}
+.leftmenu {
+    float: left;
+    padding-left: 10px;
+}
+.rightmenu {
+    float: right;
+}
+.rightmenu a {
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.logoicon {
+    width: 25px;
+    vertical-align: middle;
+}
+.rightmenu a {
+    text-decoration:none;
+    color: black;
+    opacity: 0.5;
+}
+.rightmenu a:hover{
+    color: blue;
+}
+.welcome {
+    background-color: rgb(17,81,86);
+    border: 3px solid rgb(17,81,86);
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+/* Container for flexboxes */
+.row {
+    display: flex;
+    background-color: #ede9e9;
+    column-gap: 50px;
+    column-rule: 2px dotted darkblue;
+    column-rule-style: dotted;
+}
+#loginid {
+    column-count: 2;
+    column-gap: 50px;
+    column-rule: 1px dotted gray;
+    padding: 20px;
+    background-color: #ede9e9;
+}
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 150px;
+    padding-top: 20px;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+.title {
+    font-size: 26px;
+}
+.images {
+    height: 40px;
+}
+.images-border {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+}
+.label {
+    padding-top: 16px;
+    opacity: 0.5;
+}
+
+.specialline {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid gray; 
+    line-height: 1px;
+    margin: 10px 0 20px; 
+    padding-top: 16px;
+    opacity: 0.5;
+}
+.specialline span {
+    background:#ede9e9; 
+    padding:1px 10px; 
+
+    
+}
+
+.input {
+    height: 30px;
+    font-style: italic;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.buttonlogin {
+    background-color: black;
+    height: 36px;
+    color: white;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.buttonlogin:hover {
+    background-color: white;
+    color: red;
+}
+.rememberme {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    opacity: 0.5;
+}
+.fFloat {
+    float: left;
+}
+.rFloat {
+    float: right;
+}
+.linking a {
+    text-decoration:none;
+    color: blue;
+}
+.linking a:hover{
+    color: red;
+}
+.boldtext {
+    font-weight: bold;
+    opacity: 0.6;
+}
+.buttonsubmitticket {
+    background-color: black;
+    height: 30px;
+    color: white;
+    font-size: medium;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.buttonsubmitticket:hover {
+    background-color: white;
+    color: red;
+}
