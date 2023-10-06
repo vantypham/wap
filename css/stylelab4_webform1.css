@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 20px;
+}
+.label {
+    padding-bottom: 6px;
+    padding-top: 16px
+}
+.input {
+    height: 30px;
+}
+.submitbtn {
+    height: 40px;
+    color: white;
+    width: 150px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgb(30, 149, 240);
+}
+.border-right {
+    color: white;
+    font-size: large;
+    border-right: 2px solid white;
+    padding-right: 50px;
+   
+}
+.welcometext {
+    margin-top: 0rem;
+    text-align: center;
+}
+.padleft {
+    padding-left: 50px;
+}
+.padright {
+    padding-right: 20px;
+}
+.mytitle{
+    font-size: x-large;
+    padding-top: 20px;
+}

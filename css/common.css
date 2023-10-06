@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+.myfooter {
+    height: 40px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 10px;
+}
+.myfooterl {
+    
+    text-align: center;
+    padding-top: 100px;
+}

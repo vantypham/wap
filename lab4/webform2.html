@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WebForm2</title>
+        <!-- css, style, script -->
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/stylelab4_webform1.css">
+        <!-- https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.2/cerulean/bootstrap.min.css -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.2/cerulean/bootstrap.min.css"
+            integrity="sha512-EKyrNi3+szgGslyi2kYzcYLwnBSt4XrnamWGiclaRkqsriEl+e4EmyNFAN/LoVXV8ESLxAQ7/cFfrX4rML0h2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="../js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header>
+
+            <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+                <div class="container-fluid welcometext">
+                    <div class="border-right ">
+                        <label class="welcometext">MIU Golden Dorm Market : : :
+                            SRM System</label>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarColor01">
+                        <ul class="navbar-nav me-auto">
+
+                            <li class="nav-item padleft">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <div class="border-right">
+
+                            </div>
+                            <li class="nav-item padleft">
+                                <a class="nav-link" href="#">Suppliers</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <div class="text-white padright">Hello Tina!</div>
+                            <button class="btn btn-secondary my-2 my-sm-0"
+                                type="submit">Sign out</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- main -->
+        <main class="container">
+            <form>
+                <p class="mytitle">New Product Web Form 2</p>
+                <table class="table ">
+
+                    <tbody>
+                        <tr class="table-active">
+
+                            <td>
+                                <!-- left column -->
+                                <fieldset>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1"
+                                            class="form-label mt-4">Product
+                                            number</label>
+                                        <input type="number"
+                                            class="form-control"
+                                            id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="productname"
+                                            class="form-label mt-4">Name</label>
+                                        <input type="text"
+                                            class="form-control"
+                                            id="productname"
+                                            autocomplete="off">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="unitprice"
+                                            class="form-label mt-4">Unit Price</label>
+                                        <input type="number"
+                                            class="form-control"
+                                            id="unitprice"
+                                            placeholder="0.0"
+                                            autocomplete="off">
+                                    </div>
+
+                                </fieldset>
+                            </td>
+                            <td>
+                                <!-- right column -->
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label for="quantityinstock"
+                                            class="form-label mt-4">Quantity in
+                                            Stock</label>
+                                        <input type="number"
+                                            class="form-control"
+                                            id="quantityinstock"
+                                            placeholder="1"
+                                            autocomplete="off">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="supplierOfProduct"
+                                            class="form-label mt-4">Supplier:
+                                        </label>
+                                        <select class="form-select"
+                                            id="supplierOfProduct">
+                                            <option>Select a supplier</option>
+                                            <option>SAMSUNG</option>
+                                            <option>APPLE</option>
+                                            <option>OPPO</option>
+                                            <option>REALME</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="dataSupplied"
+                                            class="form-label mt-4">Date
+                                            supplied</label>
+                                        <input type="date" class="form-control"
+                                            id="dataSupplied"
+                                            aria-describedby="datelHelp">
+                                        <small id="datelHelp"
+                                            class="form-text text-muted">Enter a
+                                            valid Date.</small>
+                                    </div>
+
+                                    <button type="reset"
+                                        class="btn btn-outline-dark float-md-none">Reset</button>
+                                    <button type="button"
+                                        class="btn btn-outline-warning float-md-none">Cancel</button>
+                                    <button type="button"
+                                        class="btn btn-outline-primary float-end">Add Product</button>
+                                </fieldset>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </main>
+        <!-- footer -->
+        <footer class="myfooterl">
+            <a href="/wap/index.html">HOME</a> | <a
+                href="/wap/lab1/aboutme.html">ABOUT ME</a> | <a
+                href="/wap/lab3/cshelpdesk.html">CS HelpDesk</a> | <a
+                href="/wap/lab4/webform1.html">WebForm1</a> | <a
+                href="/wap/lab4/webform2.html">WebForm2</a>
+        </footer>
+
+    </body>
+</html>

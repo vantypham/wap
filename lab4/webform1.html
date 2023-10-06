@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab4 WebForm 1</title>
+        <!-- css, style, script -->
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/stylelab4_webform1.css">
+    </head>
+    <!-- body container -->
+    <body>
+        <!-- header -->
+        <header>
+            <h1>Welcome to my Web Form 1</h1>
+        </header>
+        <!-- main -->
+        <main>
+            <form action="/wap/lab4/webform1_after_submitted.html" method="get">
+                <div class="grid-container ">
+                    <label class="label">Email Address</label>
+                    <input type="text" placeholder="Enter email"
+                        class="input" name="emaill">
+                    <label class="label">Password</label>
+                    <input type="password" placeholder="Password" required
+                        class="input" name="pwd"
+                        pattern="(?=.*[0-9]+)(?=.*[a-z]+)(?=.*[A-Z]+)[\d\w]{10,}"
+                        title="This field is required, and at least 1 number, 1 upper letter and lower letters, 10 as mimimun of length. Eg 'Abcde12345'">
+                    <label class="label">Website</label>
+                    <input type="text" placeholder="Website" name="website"
+                        class="input" pattern="^(http\:\/\/).|^(https\:\/\/)."
+                        title="should start with http:// or https://">
+                    <div class="label">
+                        <label class="label">
+                            <input type="checkbox" checked>Check me out
+                        </label>
+                    </div>
+                    <label class="label"><input type="submit" class="submitbtn">
+                    </label>
+                </div>
+            </form>
+
+        </main>
+        <!-- footer -->
+        <footer class="myfooterl">
+            <a href="/wap/index.html">HOME</a> | <a
+                href="/wap/lab1/aboutme.html">ABOUT ME</a> | <a
+                href="/wap/lab3/cshelpdesk.html">CS HelpDesk</a> | <a
+                href="/wap/lab4/webform1.html">WebForm1</a> | <a
+                href="/wap/lab4/webform2.html">WebForm2</a>
+        </footer>
+
+    </body>
+</html>
