@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- add mocha css, to show results -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <!-- add mocha framework code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+        mocha.setup('bdd'); // minimal setup
+    </script>
+    <!-- add chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+    </script>
+</head>
+
+<body>
+    <!-- your js file -->
+    <script src="/wap/js/mylab5_2.js"></script>
+
+    <!-- the script with tests (describe, it...) -->
+    <script src="/wap/js/mylab5_2_unittest.js"></script>
+
+    <!-- the element with id="mocha" will contain test results -->
+    <div id="mocha"></div>
+
+    <!-- run tests! -->
+    <script>
+        mocha.run();
+    </script>
+
+
+        <!-- Footer -->
+        <footer class="myfooterl">
+            <a href="/wap/index.html">HOME</a> | <a
+                href="/wap/lab1/aboutme.html">ABOUT ME</a> | <a
+                href="/wap/lab3/cshelpdesk.html">CS HelpDesk</a> | <a
+                href="/wap/lab4/webform1.html">WebForm1</a> | <a
+                href="/wap/lab4/webform2.html">WebForm2</a> | <a
+                href="/wap/lab5/mylab5.html">Lab5(use strict)</a> | <a
+                href="/wap/lab5/index.html">Lab5(Library/Object/UnitTest)</a>
+        </footer>
+
+</body>
+
+</html>
